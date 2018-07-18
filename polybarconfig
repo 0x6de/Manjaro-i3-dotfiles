@@ -152,8 +152,9 @@ label-foreground = #80CBC4
 [module/player-moc]
 type = custom/script
 exec = ~/.config/polybar/scripts/player-moc.sh
-format-prefix = "  "
+format-prefix = "  "
 format-prefix-foreground = ${colors.foreground-alt}
+label-foreground = #717171
 interval = 3
 click-left = mocp -f
 click-right = mocp -r
@@ -221,7 +222,7 @@ ws-icon-0 = 1:chromium;
 ws-icon-1 = 2:term;
 ws-icon-2 = 3:code;
 ws-icon-3 = 4:files;
-ws-icon-4 = 5:music;
+ws-icon-4 = 5:music;
 
 ws-icon-default = 
 
